@@ -1,0 +1,45 @@
+body {
+    margin: 30px 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main-Images img {
+    width: 1050px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+.Images img {
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+#lightbox img{
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    width: 1300px;
+    height: 600px;
+}
